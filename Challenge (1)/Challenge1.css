@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+    --body_bg: #c5c5c5;
+    --primary: #8132a3;
+    --light: #eeeeee;
+    --white: #ffffff;
+    --black: #000000; 
+}
+
+body {
+  background-color: var(--body_bg);
+  font-family: 'Open Sans', sans-serif;
+}
+
+#container {
+    width: 250px;
+    margin: 0 auto; /* Center the container in middle on horizontal axis */
+    margin-top: 100px;
+}
+
+hr {
+    border: 1px solid var(--light);
+}
+
+img {
+    border-radius: 50%;
+    height: 130px;
+    width: 130px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    object-fit: cover;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card {
+    background-color: var(--white);
+    border: 1px solid var(--light);
+    border-top: 12px var(--primary) solid;
+    border-radius: 10px;
+}
+
+.card_content {
+    align-content: center;
+    padding: 16px 22px;
+}
+
+.card_header {
+  font-size: 12px;
+  font-weight: bold;
+  color: var(--black);
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.card_text {
+  font-size: 14px;
+  color: var(--black);
+  margin-bottom: 10px;
+}
